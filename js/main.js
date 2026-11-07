@@ -68,15 +68,15 @@ if (donate) {
 
 // Newsletter
 const news = document.querySelector(".news-form");
+// The form posts to the Mailchimp audience "The Hildegard Fund", which opens its confirmation in a new tab.
 news.addEventListener("submit", (e) => {
-  e.preventDefault();
-  const email = news.querySelector("input").value.trim();
+  const email = news.querySelector('[name="EMAIL"]').value.trim();
   const out = document.querySelector(".news-msg");
   if (!/^\S+@\S+\.\S+$/.test(email)) {
+    e.preventDefault();
     out.textContent = "That email address doesn't look right.";
     return;
   }
-  // Send the address to your mailing list provider here.
-  out.textContent = "Thank you. You're on the list.";
-  news.reset();
+  out.textContent = "Thank you! Your sign-up is finishing in a new tab.";
+  setTimeout(() => news.reset(), 500);
 });
