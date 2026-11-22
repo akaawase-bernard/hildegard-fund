@@ -319,6 +319,9 @@ a:hover { color: var(--clay); }
 .person .initials { font-family: var(--display); font-size: 3.4rem; font-style: italic; color: var(--sage-deep); }
 .person h3 { font-size: 1.8rem; margin: 0; text-align: center; }
 .person p { text-align: center; color: var(--brown-soft); margin: 0; }
+.people.bios { grid-template-columns: repeat(2, 1fr); gap: 56px; max-width: 1040px; margin: 0 auto; align-items: start; }
+.people.bios .person p.bio { text-align: left; color: var(--brown); font-size: 1.05rem; line-height: 1.65; margin-top: 18px; }
+.people.bios .person p.role { font-style: italic; }
 
 .note { font-style: italic; color: var(--brown-soft); border-left: 3px solid var(--sage); padding-left: 16px; }
 
@@ -443,6 +446,7 @@ details p { padding: 0 28px 24px; margin: 0; }
   .steps { grid-template-columns: 1fr; }
   .people { grid-template-columns: 1fr 1fr; gap: 20px; }
   .person h3 { font-size: 1.4rem; }
+  .people.bios { grid-template-columns: 1fr; gap: 48px; }
   .footer-top { grid-template-columns: 1fr; }
   .video .play { width: 76px; height: 76px; }
 }
