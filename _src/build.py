@@ -19,7 +19,7 @@ def header(current):
       <nav class="nav" aria-label="Main">
 {links}
       </nav>
-      <a class="donate-btn" href="https://www.paypal.com/pool/9ub8hglGhU?sr=wccr" target="_blank" rel="noopener">Donate</a>
+      <a class="donate-btn" href="https://www.paypal.me/TheHildegardFunds" target="_blank" rel="noopener">Donate</a>
       <button class="menu-btn" aria-expanded="false" aria-controls="mobile-nav" aria-label="Menu">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M3 7h18M3 12h18M3 17h18"/></svg>
       </button>
