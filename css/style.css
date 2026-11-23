@@ -322,6 +322,7 @@ a:hover { color: var(--clay); }
 .people.bios { grid-template-columns: repeat(2, 1fr); gap: 56px; max-width: 1040px; margin: 0 auto; align-items: start; }
 .people.bios .person p.bio { text-align: left; color: var(--brown); font-size: 1.05rem; line-height: 1.65; margin-top: 18px; }
 .people.bios .person p.role { font-style: italic; }
+.people.bios .person .photo { width: 100%; aspect-ratio: 3 / 4; border-radius: 26px; margin: 0 0 24px; box-shadow: 0 30px 60px -38px rgba(27,45,82,.5); }
 
 .note { font-style: italic; color: var(--brown-soft); border-left: 3px solid var(--sage); padding-left: 16px; }
 

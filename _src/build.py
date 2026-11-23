@@ -111,7 +111,7 @@ for src in sorted(SRC.glob("*.html")):
   <title>{title.strip()}</title>
   <meta name="description" content="{desc.strip()}">
   {FONTS}
-  <link rel="stylesheet" href="css/style.css?v=11">
+  <link rel="stylesheet" href="css/style.css?v=12">
   <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
